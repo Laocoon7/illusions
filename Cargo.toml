@@ -1,0 +1,10 @@
+[package]
+name = "illusions"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.12"
+
+rand = "0.8" # Random number generators and other randomness functionality.
+rand_pcg = { version = "0.3", features = ["serde1"] } # Selected PCG random number generators
